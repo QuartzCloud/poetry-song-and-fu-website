@@ -1,0 +1,40 @@
+@charset "utf-8";
+.stylesheet {
+}
+.pic img{float:left;padding:0px 0px 0px 6px;}
+.pic1 img{float:left;padding:0px 0px 0px 4px;}
+.font16{font-family:黑体;line-height:24px;font-size:16px;padding:10px;}
+.font16red{font-family:黑体;line-height:24px;font-size:16px;text-align:center;color:#C33;font-weight: bold;}
+.font16 dl{margin:0px;}
+.font14{font-family:黑体;line-height:22px;font-size:14px;padding:5px;}
+.font14 img,.font16 img{float:left;padding-right:5px;}
+font20{font-family:黑体;line-height:24px;font-size:20px;text-align:center;color:#C33;font-weight: bold;}
+
+.midside2-2 img{padding-left:10px;}
+.font20red{font-family:黑体;line-height:24px;font-size:20px;text-align:center;color:#C33;}
+.list{margin:0px;padding:0px;}
+.list1 li{
+	font-family: 黑体;
+	line-height: 22px;
+	font-size: 14px;
+	list-style-image: url(pictures/category-icon.jpg);
+	list-style-type: none;
+}
+
+
+/*----------其他样式---------------------------*/
+.style1{
+	font-family: "微软雅黑","楷体", "黑体";
+	font-size: 48px;
+	line-height: 230px;
+	text-align: center;
+	letter-spacing: 30px;
+}
+.style2{
+	font-family: "黑体";
+	font-size: 20px;
+	line-height: 45px;
+	font-weight: bold;
+	color: #C33;
+	padding-left: 30px;
+}

@@ -1,0 +1,282 @@
+@charset "utf-8";
+body{background-image: url(images/cont.gif);}
+.container{width:1000px;margin:auto;}
+/*-------导航区---------*/
+
+.nav{background-image: url(images/nav.gif);height:38px;}
+
+.nav .menu{float:right;padding-right:80px;height:38px;line-height:38px;}
+.nav .menu a:link,.nav .menu a:visited{
+	font-size:20px;
+	font-family:黑体;
+	color:#000;
+	text-decoration:none;
+	}
+.nav .menu img{padding:0px 30px;height:18px;widht:2px;line-height:38px;}
+/*-------主页页头---------*/
+.top1{
+	background-image: url(images/top1.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 230px;
+	width: 300px;
+}
+.top2{
+	background-image: url(images/top2.gif);
+	
+	float: left;
+	height: 226px;
+	width: 476px;
+}
+.top3{
+	background-image: url(images/top3.gif);
+	float: left;
+	height: 226px;
+	width: 224px;
+}
+/*---------主页左边内容框容器-------*/
+.sidebar{width:350px;float:left;}
+
+/*---------上边框-------*/
+
+.upside1-1{width:155px;height:30px;background-image: url(images/up1-1.gif);	float: left;}/*---左上角----*/	
+.upside1-2{width:30px;height:30px;background-image: url(images/up1-2.gif);	float: left;}/*------左上角----*/	
+.upside2-1{width:175px;height:30px;background-image: url(images/up2.gif);	float: left;}	/*------主页左上框上边线----*/	
+.upside2-2{width:300px;height:30px;background-image: url(images/up2.gif);	float: left;}	/*------主页左下框上边线----*/	
+.upside2-3{width:825px;height:30px;background-image: url(images/up2.gif);	float: left;}	/*------唐诗页图片框上边线----*/	
+
+.upside3{width:20px;height:30px;background-image: url(images/up3.gif);
+	float: left;}/*------右上角----*/	
+
+
+
+/*------主页左上框内容区----*/	
+.midside2-1{width:300px;height:450px;float:left;background-image: url(images/cont.gif);}	
+/*------主页左下框内容区----*/	
+.midside2-2{width:300px;height:180px;float:left;background-image: url(images/cont.gif);}
+/*---------主页左边框线-------*/	
+.midside11{width:30px;height:350px;float:left;}
+.midside1-1{height:210px;background-image: url(images/l1.gif);}
+.midside1-2{height:240px;background-image: url(images/l2.gif);}
+
+.midside1-3{width:30px;height:180px;background-image: url(images/l2.gif);float:left;}
+/*---------主页右边框线-------*/		
+.midside3-1{width:20px;height:450px;float:left;background-image: url(images/r1.gif);}
+.midside3-2{width:20px;height:180px;float:left;background-image: url(images/r1.gif);}
+
+.midside12{width:30px;height:230px;float:left;}
+
+/*---------唐诗页左边框线、内容框、右边框线-------*/
+.midside1-4{width:30px;height:165px;background-image: url(images/l1.gif);float:left;}
+.midside2-3{width:950px;height:165px;float:left;}
+.midside3-3{width:20px;height:165px;float:left;background-image: url(images/r1.gif);}
+
+
+/*---------主页左框下边框-------*/
+.footside2-1{width:300px;height:20px;float:left;background-image: url(images/bt1-2.gif);}
+/*---------左下角、右下角-------*/
+.footside1-1{width:30px;height:20px;float:left;background-image: url(images/bt1-1.gif);}
+
+.footside3-1{width:20px;height:20px;float:left;background-image: url(images/bt1-3.gif);}
+/*---------唐诗页下边框线-------*/
+.footside2-2{width:950px;height:20px;float:left;background-image: url(images/bt1-2.gif);}
+
+/*---------空白-------*/
+.sidefoot{height:50px;}
+
+/*-----主页右边框-----------*/
+.content{width:650px;float:left;}/*-----主页右边框容器----*/
+.content-up1{width:570px;height:30px;float:left;background-image: url(images/up2.gif);}/*------上边框线----*/
+.content-up2{width:50px;height:30px;float:left;background-image: url(images/up4.gif);}/*---右上角线------*/
+/*---左边框线线----*/
+.content-mid1{width:30px;height:650px;background-image: url(images/l2.gif);float:left;}
+/*----右边框线-----*/
+.content-mid3{width:50px;float:left;}
+.content-mid31{width:50px;height:50px;background-image: url(images/r3.gif);}
+.content-mid32{width:50px;height:600px;background-image: url(images/r2-2.gif);}
+
+/*----左下角右下角和下边框线---*/
+.content-foot1{width:30px;height:88px;float:left;background-image: url(images/bt2-1.gif);}
+.content-foot2{width:280px;height:88px;float:left;background-image: url(images/bt2-2.gif);}
+.content-foot3{width:290px;height:88px;float:left;background-image: url(images/bt2-3.gif);}
+.content-foot4{width:50px;height:88px;float:left;background-image: url(images/r2-3.gif);}
+
+
+/*-----主页右边框内容区-----------*/
+.content-mid2{width:570px;height:650px;float:left;background-image: url(images/cont.gif);}
+/*---------内容区间隔-------*/
+.content-line1{
+	background-image: url(images/bg21.jpg);
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 350px;
+	font-family: "黑体";
+	font-size: 20px;
+	line-height: 45px;
+	
+	color: #C33;
+	padding-left: 50px;
+}
+.content-line2{
+	background-image: url(images/bg21.jpg);
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 300px;
+	font-family: "黑体";
+	font-size: 20px;
+	line-height: 45px;
+	
+	color: #C33;
+	padding-left: 50px;
+}
+
+.content-line3{
+	background-image: url(images/up1.gif);
+	background-repeat: no-repeat;
+	height: 35px;
+	line-height:35px;
+	width: 200px;
+	font-family: "黑体";
+	font-size: 24px;
+	font-weight: bold;
+	color: #C33;
+	padding-left: 45px;
+	letter-spacing:5px;
+}
+.content-line4{
+	background-image: url(images/up4.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	line-height:35px;
+	width: 255px;
+	font-family: "黑体";
+	font-size: 20px;
+	
+	color: #C33;
+	padding-left: 40px;
+	letter-spacing:2px;
+	margin-left:5px;
+}
+
+/*---------页脚容层-------*/
+.foot{background-image: url(images/foot.gif);height:20px;}
+.foot1{background-image: url(images/foot1.jpg);height:10px;}
+/*---------唐诗内容层-------*/
+.sidebar-tang{
+	float: left;
+	width: 360px;
+	border: 2px solid #CCC;
+}
+.contentleft-tang{
+	float: left;
+	widht: 315px;
+	border: 2px solid #CCC;
+	margin:auto 5px;
+	
+}
+.contentrigth-tang{
+	float: left;
+	
+	widht: 315px;
+	border: 2px solid #CCC;
+}
+
+/*---------宋词内容区-------*/
+
+.sidebar-song{
+	float: left;
+	width: 420px;
+	border: 2px solid #ccc;
+}
+.content-song{
+	margin-left:5px;
+	float: left;
+	width: 560px;
+	border: 2px solid #ccc;
+}
+
+
+/*---------元曲内容区容器层-------*/
+.sidebar-yuan{width:280px;float:left;}
+.content-yuan{width:440px;float:left;}
+/*---------元曲内容左右边框-------*/
+.upside2-4{width:105px;height:30px;background-image: url(images/up2.gif);	float: left;}	/*----上边框---*/
+	
+.midside1_5{height:870px;background-image: url(images/l2.gif);}/*---左边框---*/
+
+.midside2-4{width:230px;height:1080px;float:left;background-image: url(images/cont.gif);}/*----中间内容框---*/
+.midside3-4{width:20px;height:1080px;float:left;background-image: url(images/r1.gif);}/*----右边框---*/
+
+.footside2-3{width:230px;height:20px;float:left;background-image: url(images/bt1-2.gif);}/*----下边框---*/
+
+/*---------元曲内容中间框-------*/
+.upside2-5{width:390px;height:30px;background-image: url(images/up2.gif);	float: left;}
+.midside1-5{width:30px;height:1080px;background-image: url(images/l2.gif);float:left;}	
+
+.midside2-5{width:390px;height:1080px;float:left;background-image: url(images/cont.gif);}
+.midside3-5{width:20px;height:1080px;float:left;background-image: url(images/r1.gif);}
+.footside2-4{width:390px;height:20px;float:left;background-image: url(images/bt1-2.gif);}
+
+/*---------汉赋内容-------*/
+.sidebar-han{
+	float: left;
+	width: 400px;
+	border: 2px solid #ccc;
+	height:550px;
+}
+.content-han{
+	margin-left:5px;
+	float: left;
+	width: 580px;
+	border: 2px solid #ccc;
+	height:550px;
+}
+
+.midside1_6{width:30px;height:200px;background-image: url(images/l1.gif);float:left;}
+
+.midside2-6{width:950px;height:200px;float:left;}
+.midside3-6{width:20px;height:200px;float:left;background-image: url(images/r1.gif);}
+	
+
+/*---------清除浮动-------*/
+.clearfloat{clear:both;height:0px;line-height:0px;}
+.guide {
+width:60px;
+margin-left:570px;
+position:fixed;
+left:50%;
+bottom:134px;
+display:block;
+}
+.guide a {
+display:block;
+width:60px;
+height:50px;
+background:url(images/sprite_v2.png) no-repeat;
+margin-top:10px;
+text-decoration:none;
+font:16px/50px "楷体";
+text-align:center;
+color:#FFF;
+border-radius:2px;
+}
+.guide a span {
+display:none;
+text-align:center;
+}
+.guide a:hover {
+text-decoration:none;
+background-color:#39f;
+color:#fff;
+}
+.guide a:hover span {
+display:block;
+width:60px;
+background:#39f;
+}
+.guide .top {
+background-position:-145px -185px;
+}
+.guide .report {
+background-position:-146px -236px;
+}
