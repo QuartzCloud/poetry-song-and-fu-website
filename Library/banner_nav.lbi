@@ -1,0 +1,9 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="menu"> 
+    <a href="index.html">首页</a><img src="images/line1.png" width="2" height="25" />
+     <a href="index1.html">唐诗</a><img src="images/line1.png" width="2" height="25" /> 
+     <a href="index2.html">宋词</a><img src="images/line1.png" width="2" height="25" />
+     <a href="index3.html">元曲</a><img src="images/line1.png" width="2" height="25" />
+     <a href="index4.html">汉赋</a>
+    </div>
+
